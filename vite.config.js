@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-  base: "/knapsack-visualization",
+  base: "/knapsack",
   plugins: [
     vue(),
     vueDevTools(),
